@@ -1,0 +1,6 @@
+DrissionPage==4.1.1.2
+openpyxl==3.1.5
+requests==2.31.0
+requests-file==3.0.1
+psutil>=7.0.0
+xlrd>=2.0.0

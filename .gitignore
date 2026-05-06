@@ -1,0 +1,76 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+config.xlsx
+*.secret.*
+*secret*
+*password*
+*passwd*
+*token*
+*credential*
+*credentials*
+
+# Local account/browser profile data
+User_Data_Chrome/
+userData/
+Cookies
+Login Data
+Local State
+*.sqlite
+*.sqlite3
+
+# Business data, generated reports, and downloaded files
+datas/
+data/
+reports/
+downloads/
+output/
+*.xlsx
+*.xls
+*.xlsm
+*.csv
+*.tsv
+*.json
+shibao_data.json
+webhook_payload.json
+shibao_table.md
+*.docx
+*.pdf
+*.zip
+*.rar
+*.7z
+*.pkl
+*.pickle
+!examples/
+!examples/*.xlsx
+!项目记忆-教育问答机器人提示词工程.md
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.old
+*~
